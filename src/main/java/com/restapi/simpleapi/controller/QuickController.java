@@ -54,4 +54,27 @@ public class QuickController {
         return resItemDto;
     }
 
+    @PostMapping("/itemjpa")
+    public responseDto registerItemJpa(@RequestBody itemDto item) {
+        log.info("item : {}", item);
+
+        boolean isTrue = quickService.registerItemJpa(item);
+        if(isTrue) {
+            responseDto responseDto = new responseDto();
+            responseDto.setMessage("ok");
+            return responseDto;
+        } else {
+            responseDto responseDto = new responseDto();
+            responseDto.setMessage("fail");
+            return responseDto;
+        }
+    }
+
+    @GetMapping("/itemjpa")
+    public itemDto getItemJpa(@RequestParam("id") String id) {
+        itemDto resItemDto = quickService.getItemByIdJpa(id);
+
+        return resItemDto;
+    }
+
 }
