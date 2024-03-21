@@ -17,3 +17,5 @@
 <img width="1289" alt="스크린샷 2024-03-21 14 24 11" src="https://github.com/yejin5/simpleapi/assets/56709022/e2c7c73a-feb6-4b29-890a-97549ec756af">
 <img width="1286" alt="스크린샷 2024-03-21 14 24 25" src="https://github.com/yejin5/simpleapi/assets/56709022/f86109ad-1e8a-4e0d-bbdf-cb53846be7ac">
 <img width="1285" alt="스크린샷 2024-03-21 14 24 53" src="https://github.com/yejin5/simpleapi/assets/56709022/99e0a989-a5cf-44ec-8402-97d709559a3f">
+
+##### 메이븐 url : https://mvnrepository.com
